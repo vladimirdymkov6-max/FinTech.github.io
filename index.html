@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FinTech Corp — современные решения для финансового учёта бизнеса. FinTrack и другие продукты.">
+  <title>FinTech Corp — Бизнес-решения для финансового учёта</title>
+  <link rel="icon" type="image/svg+xml" href="assets/fintech-icon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="assets/fintech-icon.svg" alt="FinTech" width="40" height="40">
+        <div class="logo-text">
+          <span class="logo-name">FinTech</span>
+          <span class="logo-corp">Corp</span>
+        </div>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#products" class="nav-link">Продукты</a>
+        <a href="#features" class="nav-link">Возможности</a>
+        <a href="#about" class="nav-link">О компании</a>
+        <a href="#contact" class="nav-link">Контакты</a>
+      </nav>
+      <a href="#download" class="btn btn-primary header-cta">Скачать FinTrack</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="badge">Новое · FinTrack 2.2</div>
+        <h1>Финансовый учёт,<br>который работает<br><span class="accent">на ваш бизнес</span></h1>
+        <p class="hero-desc">
+          FinTech Corp создаёт простые и мощные инструменты для учёта, 
+          налогов, документов и управления деньгами компании. 
+          Начните с FinTrack — локального решения для Windows.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+            </svg>
+            Скачать FinTrack
+          </a>
+          <a href="#products" class="btn btn-secondary btn-lg">Все продукты</a>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-item">
+            <strong>Windows</strong>
+            <span>Локальная установка</span>
+          </div>
+          <div class="meta-item">
+            <strong>УСН 6% / 15%</strong>
+            <span>Налоги из коробки</span>
+          </div>
+          <div class="meta-item">
+            <strong>Офлайн</strong>
+            <span>Данные у вас</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="assets/FinTrack-icon-HD.png" alt="FinTrack" class="hero-app-icon">
+          <div class="hero-card-info">
+            <h3>FinTrack</h3>
+            <p>Бизнес-учёт</p>
+            <span class="version">v2.2.4</span>
+          </div>
+        </div>
+        <div class="floating-badge b1">Акты и счета</div>
+        <div class="floating-badge b2">Долги</div>
+        <div class="floating-badge b3">ИИ-помощник</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="section products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>Продукты FinTech Corp</h2>
+        <p>Единая экосистема инструментов для финансового управления бизнесом</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- FinTrack - Available -->
+        <article class="product-card featured">
+          <div class="product-badge available">Доступен</div>
+          <div class="product-icon">
+            <img src="assets/FinTrack-icon-HD.png" alt="FinTrack" width="64" height="64">
+          </div>
+          <h3>FinTrack</h3>
+          <p class="product-tagline">Бизнес-учёт для Windows</p>
+          <p class="product-desc">
+            Полноценный локальный учёт: операции, счета и кассы, долги, налоги УСН, 
+            акты и счета, роли пользователей, аудит, синхронизация и ИИ-помощник.
+          </p>
+          <ul class="product-features">
+            <li>Счета, кассы и переводы</li>
+            <li>Долги и контрагенты</li>
+            <li>Расчёт налогов УСН</li>
+            <li>Акты, счета, PDF</li>
+            <li>Роли и аудит-лог</li>
+            <li>Мобильный просмотр</li>
+          </ul>
+          <div class="product-actions" id="download">
+            <a href="assets/FinTrackSetup.exe" class="btn btn-primary" download>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+              </svg>
+              Скачать установщик
+            </a>
+            <span class="file-info">Windows · ~16 МБ · v2.2.4</span>
+          </div>
+        </article>
+
+        <!-- Payroll - Coming -->
+        <article class="product-card">
+          <div class="product-badge soon">Скоро</div>
+          <div class="product-icon icon-placeholder">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1A73E8" stroke-width="1.8">
+              <rect x="2" y="7" width="20" height="14" rx="2"/>
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/>
+              <line x1="12" y1="12" x2="12" y2="16"/>
+              <line x1="10" y1="14" x2="14" y2="14"/>
+            </svg>
+          </div>
+          <h3>FinTrack Payroll</h3>
+          <p class="product-tagline">Зарплата и кадры</p>
+          <p class="product-desc">
+            Расчёт заработной платы, НДФЛ, страховые взносы, больничные, 
+            отпуска, табели и отчётность.
+          </p>
+          <ul class="product-features">
+            <li>Расчёт ЗП и удержаний</li>
+            <li>2-НДФЛ / 6-НДФЛ</li>
+            <li>Интеграция с FinTrack</li>
+          </ul>
+          <button class="btn btn-outline" disabled>Уведомить о релизе</button>
+        </article>
+
+        <!-- Docs - Coming -->
+        <article class="product-card">
+          <div class="product-badge soon">Скоро</div>
+          <div class="product-icon icon-placeholder">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1A73E8" stroke-width="1.8">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+              <line x1="16" y1="13" x2="8" y2="13"/>
+              <line x1="16" y1="17" x2="8" y2="17"/>
+            </svg>
+          </div>
+          <h3>FinTrack Docs</h3>
+          <p class="product-tagline">Электронный документооборот</p>
+          <p class="product-desc">
+            Создание, подписание и обмен актами, счетами, УПД и договорами. 
+            Поддержка простой и квалифицированной подписи.
+          </p>
+          <ul class="product-features">
+            <li>Акты, счета, УПД</li>
+            <li>Электронная подпись</li>
+            <li>Интеграции с ЭДО</li>
+          </ul>
+          <button class="btn btn-outline" disabled>Уведомить о релизе</button>
+        </article>
+
+        <!-- CashFlow - Coming -->
+        <article class="product-card">
+          <div class="product-badge soon">Скоро</div>
+          <div class="product-icon icon-placeholder">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1A73E8" stroke-width="1.8">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+            </svg>
+          </div>
+          <h3>FinTrack CashFlow</h3>
+          <p class="product-tagline">Платёжный календарь</p>
+          <p class="product-desc">
+            Прогноз движения денежных средств, планирование платежей, 
+            анализ кассовых разрывов и сценарии «что если».
+          </p>
+          <ul class="product-features">
+            <li>Прогноз ДДС</li>
+            <li>Календарь платежей</li>
+            <li>Сценарный анализ</li>
+          </ul>
+          <button class="btn btn-outline" disabled>Уведомить о релизе</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Почему FinTrack</h2>
+        <p>Всё необходимое для учёта небольшого и среднего бизнеса — без лишней сложности</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Данные у вас</h4>
+          <p>Локальное хранение. Работает без интернета. Вы контролируете информацию.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h4>Роли и доступ</h4>
+          <p>Владелец, бухгалтер, только просмотр. Полный аудит всех изменений.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <h4>Налоги УСН</h4>
+          <p>Автоматический расчёт 6% и 15% по кварталам. Меньше ошибок — спокойнее отчётность.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h4>ИИ-помощник</h4>
+          <p>Сравнение месяцев, топ расходов, ответы на вопросы по вашим данным.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h4>Мультипользователь</h4>
+          <p>Общий workspace для команды. Синхронизация через папку или мобильный сервер.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          </div>
+          <h4>Документы</h4>
+          <p>Акты и счета с подписью организации. Экспорт в PDF и Excel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container about-inner">
+      <div class="about-content">
+        <h2>О компании FinTech Corp</h2>
+        <p>
+          Мы разрабатываем программные решения, которые помогают компаниям 
+          вести финансовый учёт просто, прозрачно и безопасно. 
+          Наш флагманский продукт — <strong>FinTrack</strong> — создан для 
+          предпринимателей и бухгалтеров, которым нужен надёжный инструмент 
+          без подписок и облачных рисков.
+        </p>
+        <p>
+          Все данные хранятся локально. Вы полностью контролируете информацию. 
+          Мы продолжаем развивать экосистему: зарплата, документооборот, 
+          прогнозирование денежных потоков и другие инструменты.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <strong>2027</strong>
+            <span>Год основания</span>
+          </div>
+          <div class="stat">
+            <strong>2.2</strong>
+            <span>Актуальная версия</span>
+          </div>
+          <div class="stat">
+            <strong>100%</strong>
+            <span>Локальные данные</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="founder-card">
+          <img src="assets/founder.jpg" alt="Дымков Владимир Максимович" class="founder-photo">
+          <div class="founder-info">
+            <h3>Дымков Владимир Максимович</h3>
+            <p class="founder-role">Основатель &amp; CEO</p>
+            <p class="founder-company">FinTech Corp</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-content">
+          <h2>Готовы начать?</h2>
+          <p>Скачайте FinTrack прямо сейчас и наведите порядок в финансах компании за один день.</p>
+        </div>
+        <a href="assets/FinTrackSetup.exe" class="btn btn-white btn-lg" download>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+          </svg>
+          Скачать FinTrack
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="assets/fintech-icon.svg" alt="FinTech" width="36" height="36">
+            <div class="logo-text">
+              <span class="logo-name">FinTech</span>
+              <span class="logo-corp">Corp</span>
+            </div>
+          </a>
+          <p>Современные решения для финансового учёта и управления бизнесом.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Продукты</h4>
+          <a href="#products">FinTrack</a>
+          <a href="#products">Payroll</a>
+          <a href="#products">Docs</a>
+          <a href="#products">CashFlow</a>
+        </div>
+        <div class="footer-links">
+          <h4>Компания</h4>
+          <a href="#about">О нас</a>
+          <a href="#features">Возможности</a>
+          <a href="#contact">Контакты</a>
+        </div>
+        <div class="footer-links">
+          <h4>Контакты</h4>
+          <a href="mailto:hello@fintech-corp.ru">hello@fintech-corp.ru</a>
+          <a href="mailto:support@fintech-corp.ru">support@fintech-corp.ru</a>
+          <p class="footer-note">Россия</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2027 FinTech Corp. Все права защищены.</p>
+        <p class="footer-legal">FinTrack — зарегистрированный продукт FinTech Corp.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
